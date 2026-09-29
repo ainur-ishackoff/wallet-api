@@ -48,11 +48,7 @@
 
 ## Быстрый старт
 
-### 1. Клонирование репозитория
-
-git clone https://github.com/Tvoysuperior/wallet-api.git
-cd wallet-api
-### 2. Настройка окружения
+### 1. Настройка окружения
 Создайте файл .env в корне проекта:
 
 env
@@ -66,14 +62,14 @@ DB_HOST=localhost
 DB_PORT=5432
 
 DB_NAME=wallet_db
-### 3. Запуск через Docker 
+### 2. Запуск через Docker 
 docker-compose up -d
 
 API будет доступно по адресу: http://localhost:8000
 
 Документация Swagger: http://localhost:8000/docs
 
-### 4. Локальный запуск (без Docker)
+### 3. Локальный запуск (без Docker)
 Установите зависимости:
 
 pip install -r requirements.txt
@@ -124,7 +120,7 @@ json
 
 409 Conflict — недостаточно средств
 
-### 5.Тестирование
+### 4.Тестирование
 
 Запуск тестов
 
